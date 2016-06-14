@@ -3,6 +3,7 @@ jobs:
     type: manifest
     steps:
       - GET: resource4a
-        trigger: false
+        trigger: true
       - GET: resource4b
+        trigger: false
       - PUT: resource4a
