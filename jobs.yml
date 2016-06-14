@@ -1,6 +1,5 @@
 jobs:
-  - name: job4a
+  - name: jobT
     type: manifest
     steps:
-      - GET: resource4aa
-        trigger: false
+      - GET: resourceT
