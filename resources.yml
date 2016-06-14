@@ -1,16 +1,8 @@
 resources:
-  - name: resource4a
+  - name: resource4aa
     type: image
     integration: ankul-docker
     source:
       name: "ankul/test-repo"
       isPull: false
       tag: akskas
-      
-  - name: resource4b
-    type: image
-    integration: ankul-docker
-    source:
-      name: "ankul/busybox"
-      isPull: false
-      tag: kas0
