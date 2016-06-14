@@ -1,7 +1,8 @@
 jobs:
-  - name: job2
+  - name: job3
     type: manifest
     steps:
-      - GET: resource2
+      - GET: resource3a
         trigger: false
+      - GET: resource3b
       - PUT: resource2
