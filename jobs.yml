@@ -1,17 +1,24 @@
 jobs:
-  - name: job8a
+  - name: job9a
     type: manifest
     steps:
-      - GET: resource8a
-      - GET: resource8b
+      - GET: resource9a
+      - GET: resource9b
         trigger: false
-      - PUT: resource8a
+      - PUT: resource9a
   
-  - name: job8b
+  - name: job9b
     type: manifest
     steps:
-      - GET: resource8a
+      - GET: resource9a
         trigger: false
-      - GET: resource8b
+      - GET: resource9b
         trigger: true
-      - PUT: resource8a
+      - PUT: resource9a
+      
+  - name: job9c
+    type: manifest
+    steps:
+      - GET: resource9a
+      - GET: resource9b
+      - PUT: resource9a
