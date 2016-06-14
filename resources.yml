@@ -1,5 +1,5 @@
 resources:
-  - name: resource4aa
+  - name: resource6
     type: image
     integration: ankul-docker
     source:
