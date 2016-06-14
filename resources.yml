@@ -1,5 +1,5 @@
 resources:
-  - name: resource1
+  - name: resource2
     type: image
     integration: ankul-docker
     source:
