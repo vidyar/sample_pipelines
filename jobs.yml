@@ -1,6 +1,6 @@
 jobs:
-  - name: job4a
+  - name: job6
     type: manifest
     steps:
-      - GET: resource4aa
+      - GET: resource6
         trigger: false
