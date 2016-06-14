@@ -6,4 +6,4 @@ jobs:
         trigger: true
       - GET: resource4b
         trigger: false
-      - PUT: resource4a
+      #- PUT: resource4a
