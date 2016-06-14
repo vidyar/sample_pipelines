@@ -1,5 +1,5 @@
 resources:
-  - name: resource3a
+  - name: resource4a
     type: image
     integration: ankul-docker
     source:
@@ -7,7 +7,7 @@ resources:
       isPull: false
       tag: akskas
       
-  - name: resource3b
+  - name: resource4b
     type: image
     integration: ankul-docker
     source:
