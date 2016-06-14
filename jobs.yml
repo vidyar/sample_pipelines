@@ -1,8 +1,17 @@
 jobs:
-  - name: job5
+  - name: job5a
     type: manifest
     steps:
-      - GET: resource5a
-      - GET: resource5b
+      - GET: resource5aa
+      - GET: resource5ba
         trigger: false
-      - PUT: resource5a
+      - PUT: resource5aa
+      
+  - name: job5b
+    type: manifest
+    steps:
+      - GET: resource5aa
+        trigger: false
+      - GET: resource5ba
+        trigger: true
+      - PUT: resource5aa
